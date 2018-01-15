@@ -21,6 +21,9 @@
 
 namespace Aliyun\Core\Profile;
 
+use Aliyun\Core\Auth\Credential;
+use Aliyun\Core\Auth\ShaHmac1Signer;
+
 class DefaultProfile implements IClientProfile
 {
 

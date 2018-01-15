@@ -21,6 +21,8 @@
 
 namespace Aliyun\Core\Exception;
 
+use Exception;
+
 class ClientException extends Exception
 {
 
