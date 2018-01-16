@@ -24,6 +24,7 @@ namespace Aliyun\Core;
 use Aliyun\Core\Http\HttpHelper;
 use Aliyun\Core\Regions\LocationService;
 use Aliyun\Core\Exception\ServerException;
+use Aliyun\Core\Exception\ClientException;
 
 class DefaultAcsClient implements IAcsClient
 {
